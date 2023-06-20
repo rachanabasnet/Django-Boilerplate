@@ -6,8 +6,8 @@ from django.contrib.auth.models import PermissionsMixin
 from django.contrib.auth.validators import UnicodeUsernameValidator
 from django.db import models
 
-from todoapps.common.models import BaseModel, File
-from todoapps.user.manager import UserManager
+from apps.common.models import BaseModel, File
+from apps.user.manager import UserManager
 
 
 def get_profile_picture_upload_path(_, filename):

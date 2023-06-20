@@ -1,5 +1,5 @@
 """
-WSGI config for TODO project.
+WSGI config for a project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
